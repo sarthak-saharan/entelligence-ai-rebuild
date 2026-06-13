@@ -29,6 +29,23 @@
 
   body { font-family: var(--font); background: #fff; color: var(--text-primary); -webkit-font-smoothing: antialiased; }
 
+  .concept-banner {
+    background: #fdf2f2;
+    border-bottom: 1px solid #f5c6c6;
+    text-align: center;
+    padding: 9px 16px;
+    font-size: 13px;
+    color: #5a3a3a;
+    line-height: 1.4;
+  }
+  .concept-banner a {
+    color: #8b2020;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(139,32,32,0.3);
+  }
+  .concept-banner a:hover { border-bottom-color: #8b2020; }
+
   /* ── NAV ── */
   .nav-wrap { position: sticky; top: 12px; z-index: 100; display: flex; justify-content: center; padding: 0 16px; }
 
@@ -326,6 +343,9 @@
 </style>
 </head>
 <body>
+<div class="concept-banner">
+  <strong>Landing-page feature concept</strong> for <a href="https://entelligence.ai/" target="_blank" rel="noopener">Entelligence AI</a> · Built by <a href="https://www.linkedin.com/in/sarthak-saharan/" target="_blank" rel="noopener">Sarthak Saharan</a> · Demo data only, not affiliated with Entelligence AI.
+</div>
 
 <!-- NAV -->
 <div class="nav-wrap">
